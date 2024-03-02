@@ -198,12 +198,14 @@ span {
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
  
 .contact-info {
 
     font-style: normal;
-    
+    margin-left: auto;
 }
 
     
@@ -222,7 +224,7 @@ span {
     border: none;
     border-radius: 4px;
     display: block;
-    
+    margin: 0 auto;
 
 }
 
@@ -298,14 +300,13 @@ a:focus {
 }
 
 .headhtwo {
-    background-color: #F4F4FD;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
+    text-align: center;
 
 
 }
@@ -323,6 +324,17 @@ a:focus {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
+    margin-bottom: 8px;
+
+}
+
+.containerlast .headteam {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: left;
     margin-bottom: 8px;
 
 }
@@ -371,6 +383,7 @@ a:focus {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 72px;
+    text-align: center;
 }
 
 .listportfolio {
@@ -391,7 +404,7 @@ a:focus {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px
+    margin-bottom
 }
 
 .textthird {
