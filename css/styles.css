@@ -325,7 +325,7 @@ a:focus {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-align: center;
+    text-align: ;
     margin-bottom: 8px;
 
 }
@@ -336,7 +336,7 @@ a:focus {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-align: center;
+    text-align: left;
     margin-bottom: 8px;
 
 }
