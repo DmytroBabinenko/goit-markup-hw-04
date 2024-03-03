@@ -97,7 +97,7 @@ span {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    
     margin-right: 76px;
     position: relative;
     color: #404bbf;
@@ -110,6 +110,14 @@ span {
     color: #404bbf;
 }
 
+.headclass .web-studio {
+    color: #404bbf;
+}
+
+.web-studio::after {
+    position: absolute;
+    bottom: -1px; 
+}
 
 .partlogo {
     font-family: "Raleway", sans-serif;
