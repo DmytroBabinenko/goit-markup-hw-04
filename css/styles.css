@@ -58,6 +58,10 @@ address {
     color: #404bbf;
 }
 
+.menu .studmenu {
+    color: #404bbf; 
+}
+
 .container {
     
     width: 1158px;
@@ -97,10 +101,10 @@ span {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
+    color: #4d5ae5;
     margin-right: 76px;
     position: relative;
-    color: #404bbf;
+    
 }
 
 .web-studio:hover {
@@ -110,9 +114,7 @@ span {
     color: #404bbf;
 }
 
-.headclass .web-studio {
-    color: #404bbf;
-}
+
 
 .web-studio::after {
     position: absolute;
