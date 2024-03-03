@@ -410,6 +410,17 @@ a:focus {
     border-radius: 0px 0px 4px 4px; 
 }
 
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    
+}
+
 .logoportfolio {
     font-weight: 500;
     font-size: 20px;
@@ -440,6 +451,8 @@ a:focus {
     border-top: none;
     margin-bottom
 }
+
+
 
 .textthird {
     font-size: 16px;
