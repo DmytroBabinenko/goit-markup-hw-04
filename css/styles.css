@@ -456,6 +456,10 @@ a:focus {
     background-color: #404bbf;
 }
 
+.svgscm {
+    fill: #f4f4fd;  
+}
+
 .divname  {
     padding: 32px 0;
 
