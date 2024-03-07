@@ -536,7 +536,7 @@ a:focus {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.lppoint .imgdescr:hover {
+.listportfolio li:hover .imgdescr {
     transform: translateY(0%);
 }
 
