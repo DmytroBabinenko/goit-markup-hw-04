@@ -584,7 +584,37 @@ a:focus {
 .endlist {
     display: flex;
     gap: 16px;
+
+}
+
+.li-endlist {
+    width: 40px;
+    height: 40px;
+
+}
+
+.link-endlist {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.link-endlist:hover {
+    background-color: #31d0aa;
     
+}
+.link-endlist:focus {
+    background-color: #31d0aa;
+    
+}
+
+.svgend {
+    fill: #f4f4fd;
 }
 
 .endpage {
