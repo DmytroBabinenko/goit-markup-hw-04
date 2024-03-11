@@ -52,8 +52,7 @@ address {
 
 .studmenu {
     padding: 24px 0;
-    display: flex;
-    gap: 40px;
+    display: block;
     position: relative;
     color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -169,6 +168,8 @@ span {
 
 
 .menu li a {
+    padding: 24px 0;
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -176,6 +177,17 @@ span {
     color: #2e2f42;
     
 }
+
+.contactpoint {
+    padding: 24px 0;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
 
 
 .studmenu:hover,
@@ -207,13 +219,7 @@ span {
 
 }
 
-.contact-info li a {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    
-}
+
 
 
 
@@ -221,8 +227,8 @@ span {
     background-color:#2e2f42;
     padding: 188px 0;
     
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/heroimage.jpgjpg);
-        height: 100vh; 
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/heroimage.jpg);
+         
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -285,6 +291,7 @@ a:focus {
     color: #404bbf;
 }
 
+
 .firstsect {
     padding: 120px 0;
 }
@@ -314,7 +321,7 @@ a:focus {
     background-color: #f4f4fd;
     border-radius: 4px;
     margin-bottom: 8px;
-
+    border: 1px;
 
 }
 
@@ -353,14 +360,15 @@ a:focus {
 }
 
 .headhtwo {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+   
+    
+    margin-bottom: 72px;   
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
     letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 72px;
     text-align: center;
-
+    color: var(--navy-blue);
 
 }
 
@@ -398,6 +406,7 @@ a:focus {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
+    margin-bottom: 8px;
 
 }
 
@@ -485,13 +494,15 @@ a:focus {
 }
 
 .logoportfolio {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+    
+    
     margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
     text-align: center;
+    color: var(--navy-blue);
 }
 
 .listportfolio {
